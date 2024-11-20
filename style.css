@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6ffe5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    background-image: url("https://img.freepik.com/free-vector/neon-light-wavy-background_23-2148899317.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 320px;
+    height: 170px;
+    font-weight: bold;
+    color: bisque;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.card .bank p {
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.cardName{
+    font-size: 15px;
+}
+
+.balance{
+    font-size: 25px;
+}
+
+.card .details {
+    text-align: center;
+    color: aliceblue;
+}
+
+.amountOption {
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+
+input {
+    background-color: white;
+    border: none;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.button-option {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+.deposit-button {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    background-color: #4caf50;
+    margin-right: 10px;
+}
+
+.withdraw-button {
+    float: right;
+    padding: auto;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: hsl(13, 100%, 56%);
+    margin-left: 10px;
+}
+
+.result {
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+}
